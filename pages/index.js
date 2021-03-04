@@ -13,9 +13,9 @@ export default function Home() {
   const [result, setResult] = useState(null)
 
   const getRandomInt = (max) => {
-    const min = 1
+    const min = 0
     max = Math.floor(max)
-    return Math.floor(Math.random() * (max - min)) + min
+    return Math.floor(Math.random() * (max - min)) + min + 1
   }
 
   const handleShuffleClick = () => {

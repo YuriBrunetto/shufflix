@@ -32,4 +32,14 @@ export const InputStyled = styled.input`
     border-color: var(--primary-color);
     box-shadow: 0 6px 32px rgba(0, 0, 0, 0.2);
   }
+
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  &[type='number'] {
+    -moz-appearance: textfield;
+  }
 `
