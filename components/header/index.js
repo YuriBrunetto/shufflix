@@ -1,14 +1,17 @@
 import React from 'react'
 
-import { HeaderStyled, LogoStyled } from './styles'
-import { ReactSVG as SVG } from 'react-svg'
+import Image from 'next/image'
+import { HeaderStyled, LogoWrapper, LogoStyled, H1, H2 } from './styles'
 
 const Header = () => (
   <HeaderStyled>
-    <LogoStyled>
-      <SVG src='/logo.svg' />
-    </LogoStyled>
-    header
+    <LogoWrapper>
+      <H1>shufflix</H1>
+      {/* <LogoStyled>
+        <Image src='/logo.png' alt='Shufflix' width={68} height={40} />
+      </LogoStyled> */}
+    </LogoWrapper>
+    <H2>Shuffle an episode of your favorite TV Show</H2>
   </HeaderStyled>
 )
 

@@ -10,12 +10,10 @@ function Layout({ children }) {
   return (
     <>
       <MainStyled>
-        <LimiterStyled>
-          <Header />
-          {children}
-        </LimiterStyled>
-        <Footer />
+        <Header />
+        {children}
       </MainStyled>
+      <Footer />
     </>
   )
 }
