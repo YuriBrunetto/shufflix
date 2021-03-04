@@ -10,7 +10,7 @@ const SEO = () => (
     <meta name='title' content='Shufflix' />
     <meta
       name='description'
-      content='Shuffle an episode of your favorite Show'
+      content='Shuffle an episode of your favorite TV Show'
     />
 
     <meta property='og:type' content='website' />
@@ -18,7 +18,7 @@ const SEO = () => (
     <meta property='og:title' content='Shufflix' />
     <meta
       property='og:description'
-      content='Shuffle an episode of your favorite Show'
+      content='Shuffle an episode of your favorite TV Show'
     />
     <meta
       property='og:image'
@@ -36,11 +36,11 @@ const SEO = () => (
     <meta property='twitter:title' content='Shufflix' />
     <meta
       property='twitter:description'
-      content='Shuffle an episode of your favorite Show'
+      content='Shuffle an episode of your favorite TV Show'
     />
     <meta
       property='twitter:image'
-      content='https://shufflix.vercel.app/twitter-card.png'
+      content='https://shufflix.vercel.app/logo512.png'
     />
   </Head>
 )
